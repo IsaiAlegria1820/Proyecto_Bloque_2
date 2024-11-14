@@ -14,18 +14,6 @@ a{
 aside{
     background: hsl(240, 100%, 5%);
 }
-
-h2{
-    color: hsl(35, 77%, 62%);
-    font-weight: 800;
-    font-size: 50px;
-}
-
-h3{
-    color: hsl(36, 100%, 99%);
-    font-weight: 700;
-
-}
 /*Contenedores*/
 
 .container{
@@ -46,6 +34,10 @@ h3{
 
 .grid{
     display: grid;
+}
+
+.d-row{
+    grid-template-columns: 1fr 2fr;
 }
 
 .col-2{
@@ -78,7 +70,9 @@ h3{
 }
 
 /*unidades y medidas*/
-
+.padding-xs{
+    padding: 1rem;
+}
 .padding-sm{
     padding: 1.5rem;
 }
@@ -127,6 +121,13 @@ h3{
 }
 
 /*parrafos*/
+
+.p0-5{
+    font-size: 13px;
+    font-weight: 500;
+    color: hsl(236, 13%, 42%);
+    line-height: 1.5;
+}
 .p1{
     font-size: 15px;
     font-weight: 500;
@@ -141,9 +142,24 @@ h3{
     line-height: 2;
 }
 
-.border{
-    border: 1px solid hsl(233, 8%, 79%);
+.titulo{
+    color: hsl(35, 77%, 62%);
+    font-weight: 800;
+    font-size: 50px;
 }
+
+.subtitulo{
+    color: hsl(36, 100%, 99%);
+    font-weight: 700;
+
+}
+
+.titulo2{
+    color: hsl(5, 85%, 63%);
+    font-weight: 800;
+    font-size: 30px;
+}
+
 /*eslogan*/
 .eslogan{
     font-weight: 800;
