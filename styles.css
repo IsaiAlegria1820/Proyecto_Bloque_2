@@ -1,9 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,500;1,500&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+/*Formateo*/
 *{
     margin: 0;
     padding: 0;
+    font-family: "Inter", sans-serif;
 }
 
-img{
-    width: 100%;
-    vertical-align: center;
+a{
+    color: hsl(233, 8%, 79%);
+    text-decoration: none;
 }
+/*Contenedores*/
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+
+/*Estilos generales*/
+.row{
+    display: flex;
+}
+
+.grid{
+    display: grid;
+}
+
+.items-center{
+    align-items: center;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+/*unidades y medidas*/
+.py-sm{
+    padding: 1rem 0;
+}
+
+.py-md{
+    padding: 2rem 0;
+}
+
+.py-lg{
+    padding: 4rem 0;
+}
+
+.gap-sm{
+    gap: 1rem;
+}
+
+.gap-md{
+    gap: 2rem;
+}
+
+.gap-lg{
+    gap: 4rem;
+}
+
+/*transiciones y animaciones*/
+a:hover{
+    color:hsl(5, 85%, 63%);
+}
+
+
+
+
