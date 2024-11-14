@@ -11,26 +11,55 @@ a{
     text-decoration: none;
 }
 /*Contenedores*/
+
 .container{
-    width: 90%;
+    width: 80%;
+    height: 90%;
     margin: 0 auto;
+    
 }
+
 
 /*Estilos generales*/
 .row{
     display: flex;
 }
 
+.column{
+    flex-direction: column;
+}
+
 .grid{
     display: grid;
+}
+
+.col-2{
+    grid-template-columns: 2fr 1fr;
+}
+
+.col2{
+    grid-template-columns: repeat(2, 1fr);
 }
 
 .items-center{
     align-items: center;
 }
 
+.flex-start{
+    align-items: flex-start;
+}
+
 .space-between{
     justify-content: space-between;
+}
+
+.justify-center{
+    justify-content: center;
+}
+/*imagenes*/
+.img-fluid{
+    width: 100%;
+    vertical-align: middle;
 }
 
 /*unidades y medidas*/
@@ -38,12 +67,20 @@ a{
     padding: 1rem 0;
 }
 
-.py-md{
+.py-2{
     padding: 2rem 0;
 }
 
-.py-lg{
+.py-3{
+    padding: 3rem 0;
+}
+
+.py-md{
     padding: 4rem 0;
+}
+
+.py-lg{
+    padding: 5rem 0;
 }
 
 .gap-sm{
@@ -56,6 +93,32 @@ a{
 
 .gap-lg{
     gap: 4rem;
+}
+/*el boton*/
+.btn{
+    background-color: hsl(5, 85%, 63%);
+    color: hsl(240, 100%, 5%);
+    font-weight: 700;
+    border: 0;
+    padding: 0.8rem 1.6rem;
+    text-transform: uppercase;
+    cursor: pointer;
+    letter-spacing: 3px;
+    display: inline-block;
+}
+
+/*parrafos*/
+.p1{
+    font-size: 15px;
+    font-weight: 500;
+    color: hsl(236, 13%, 42%);
+    line-height: 1.5;
+}
+/*eslogan*/
+.eslogan{
+    font-weight: 800;
+    font-size: 3.5rem;
+    line-height: 1;
 }
 
 /*transiciones y animaciones*/

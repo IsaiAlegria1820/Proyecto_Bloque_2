@@ -8,17 +8,49 @@
   <title>Frontend Mentor | News homepage</title>
   <link rel="stylesheet" href="styles.css">
 </head>
-<header class="row space-between py-sm container">
-  <h1><img src="assets/images/logo.svg" alt=""></h1>
-  <nav class="row gap-md items-center">
-        <a href="#">Home</a>
-        <a href="#">New</a>
-        <a href="#">Popular</a>
-        <a href="#">Trending</a>
-        <a href="#">Categories</a>
-  </nav>
-</header>
 <body>
+  <header class="row space-between py-md container">
+    <h1><img src="assets/images/logo.svg" alt=""></h1>
+    <nav class="row gap-md items-center">
+          <a href="#">Home</a>
+          <a href="#">New</a>
+          <a href="#">Popular</a>
+          <a href="#">Trending</a>
+          <a href="#">Categories</a>
+    </nav>
+  </header>
+  <main class="container">
+    <section class="grid col-2 gap-md">
+      <article>
+        <img class="img-fluid" src="assets/images/image-web-3-desktop.jpg" alt="el fondo">
+        <section class="grid col2 gap-md py-3">
+          <div>
+            <p class="eslogan">The Bright Future of Web 3.0?</p>
+          </div>
+          <div class="row column flex-start space-between">
+            <p class="p1"> We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. 
+            But is it really fulfilling its promise?</p>
+            <button class="btn">Read more</button>
+          </div>
+        </section>
+      </article>
+      <aside>
+        <h2>NEW</h2>
+        <section>
+          <h3>Hydrogen VS Electric Cars</h3>
+          <p>Will hydrogen-fueled cars ever catch up to EVs?</p>
+        </section>
+        <section>
+          <h3>The Downsides of AI Artistry</h3>
+          <p>What are the possible adverse effects of on-demand AI image generation?</p>
+        </section>
+        <section>
+          <h3>Is VC Funding Drying Up?</h3>
+          <p>Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+        </section>
+      </aside>
+    </section>   
+  </main>
   
   
   
@@ -30,8 +62,7 @@
    <!--
   The Bright Future of Web 3.0?
 
-  We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. 
-  But is it really fulfilling its promise?
+ 
 
   Read more
 
