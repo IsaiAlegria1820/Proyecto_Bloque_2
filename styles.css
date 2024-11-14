@@ -172,6 +172,47 @@ a:hover{
     color:hsl(5, 85%, 63%);
 }
 
+.icon-menu{
+    display: none;
+}
 
+
+
+/*responsive*/
+
+@media screen and (width <= 375px){
+/*ajustes generales*/
+ .container{
+    width: 90%;
+ }
+
+
+/*ajuestes nav*/
+ .icon-menu{
+    display:flex;
+ }
+/*ajustes main*/
+ .col-2{
+    grid-template-columns: 1fr;
+ }
+
+ .col2{
+    grid-template-columns: 1fr;
+ }
+
+ .img-fluid{
+    height: 300px;
+ }
+ 
+ .p-relative{
+    position: relative;
+ }
+ 
+ 
+ .desaparece{
+    display:none;
+}
+
+}
 
 
