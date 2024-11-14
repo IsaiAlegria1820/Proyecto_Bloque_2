@@ -200,7 +200,7 @@ a:hover{
     grid-template-columns: 1fr;
  }
 
- .img-fluid{
+ .alto{
     height: 300px;
  }
  
@@ -208,7 +208,9 @@ a:hover{
     position: relative;
  }
  
- 
+ .articulo{
+    flex-direction: column;
+ }
  .desaparece{
     display:none;
 }
