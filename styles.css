@@ -175,18 +175,28 @@ a:hover{
 .icon-menu{
     display: none;
 }
-
+/*submenu*/
+.submenu{
+    display: none;
+    position: absolute;
+    width: 100%;
+    background-color: white;
+    z-index: 1;
+    padding: 2rem;
+}
 
 
 /*responsive*/
 
-@media screen and (width <= 375px){
+@media screen and (width <= 479px){
 /*ajustes generales*/
  .container{
     width: 90%;
  }
 
-
+ .desaparece{
+    display:none;
+}
 /*ajuestes nav*/
  .icon-menu{
     display:flex;
@@ -211,8 +221,10 @@ a:hover{
  .articulo{
     flex-direction: column;
  }
- .desaparece{
-    display:none;
+
+ /*funcionamiento submenu*/
+.menu-active:hover + .submenu{
+    display: grid;
 }
 
 }
