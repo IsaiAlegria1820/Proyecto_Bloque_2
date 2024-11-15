@@ -188,7 +188,7 @@ a:hover{
 
 /*responsive*/
 
-@media screen and (width <= 479px){
+@media screen and (width <= 600px){
 /*ajustes generales*/
  .container{
     width: 90%;
